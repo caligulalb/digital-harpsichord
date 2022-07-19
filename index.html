@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Harpsichord</title>
+</head>
+<body>
+    
+    <div>
+        <div class="afinacao-container">
+            <div>
+                <h1>DIAPASON</h1>
+                <button id="A440">A = 440</button>
+                <button id="A392">A = 392</button>
+            </div>
+        </div>
+        
+        <div id="harp_440" class="harpsichord440">
+            <div class="oitava">
+                <div data-note="C" class="tecla preta"></div>
+                <div data-note="Db" class="tecla branca"></div>
+                <div data-note="D" class="tecla preta"></div>
+                <div data-note="Eb" class="tecla branca"></div>
+                <div data-note="E" class="tecla preta"></div>
+                <div data-note="F" class="tecla preta"></div>
+                <div data-note="Gb" class="tecla branca"></div>
+                <div data-note="G" class="tecla preta"></div>
+                <div data-note="Ab" class="tecla branca"></div>
+                <div data-note="A" class="tecla preta"></div>
+                <div data-note="Bb" class="tecla branca"></div>
+                <div data-note="B" class="tecla preta"></div>
+            </div>
+        </div>
+
+        <div id="harp_392" class="harpsichord392">
+            <div class="oitava">
+                <div data-note="C-392" class="tecla preta"></div>
+                <div data-note="Db-392" class="tecla branca"></div>
+                <div data-note="D-392" class="tecla preta"></div>
+                <div data-note="Eb-392" class="tecla branca"></div>
+                <div data-note="E-392" class="tecla preta"></div>
+                <div data-note="F-392" class="tecla preta"></div>
+                <div data-note="Gb-392" class="tecla branca"></div>
+                <div data-note="G-392" class="tecla preta"></div>
+                <div data-note="Ab-392" class="tecla branca"></div>
+                <div data-note="A-392" class="tecla preta"></div>
+                <div data-note="Bb-392" class="tecla branca"></div>
+                <div data-note="B-392" class="tecla preta"></div>
+            </div>
+        </div>
+
+    </div>
+        
+
+   
+    <audio id="C" src="notas/C.mp3"></audio>
+    <audio id="Db" src="./notas/Db.mp3"></audio>
+    <audio id="D" src="notas/D.mp3"></audio>
+    <audio id="Eb" src="notas/Eb.mp3"></audio>
+    <audio id="E" src="notas/E.mp3"></audio>
+    <audio id="F" src="notas/F.mp3"></audio>
+    <audio id="Gb" src="notas/Gb.mp3"></audio>
+    <audio id="G" src="notas/G.mp3"></audio>
+    <audio id="Ab" src="notas/Ab.mp3"></audio>
+    <audio id="A" src="notas/A.mp3"></audio>
+    <audio id="Bb" src="notas/Bb.mp3"></audio>
+    <audio id="B" src="notas/B.mp3"></audio>
+
+    <audio id="C-392" src="./notas/392/C-392.mp3"></audio>
+    <audio id="Db-392" src="./notas/392/Db-392.mp3"></audio>
+    <audio id="D-392" src="./notas/392/D-392.mp3"></audio>
+    <audio id="Eb-392" src="./notas/392/Eb-392.mp3"></audio>
+    <audio id="E-392" src="notas/392/E-392.mp3"></audio>
+    <audio id="F-392" src="notas/392/F-392.mp3"></audio>
+    <audio id="Gb-392" src="notas/392/Gb-392.mp3"></audio>
+    <audio id="G-392" src="notas/392/G-392.mp3"></audio>
+    <audio id="Ab-392" src="notas/392/Ab-392.mp3"></audio>
+    <audio id="A-392" src="notas/392/A-392.mp3"></audio>
+    <audio id="Bb-392" src="notas/392/Bb-392.mp3"></audio>
+    <audio id="B-392" src="notas/392/B-392.mp3"></audio>
+
+</body>
+</html>
